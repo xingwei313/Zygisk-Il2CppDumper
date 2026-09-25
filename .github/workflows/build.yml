@@ -25,3 +25,5 @@ jobs:
       with:
         name: zygisk-il2cppdumper
         path: out/magisk_module_release/
+        include-hidden-files: true
+        if-no-files-found: error
